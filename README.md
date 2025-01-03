@@ -1,0 +1,3 @@
+# Unexpected Behavior When Directly Modifying Instance Variables in Ruby
+
+This example demonstrates a common misconception in Ruby regarding instance variables.  While you can access instance variables directly using `@variable_name`, modifying them directly outside of defined methods can lead to unexpected behavior, as shown in `bug.rb`. The solution (`bugSolution.rb`) illustrates how to properly modify instance variables using setter methods.
